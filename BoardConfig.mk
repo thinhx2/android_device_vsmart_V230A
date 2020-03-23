@@ -21,6 +21,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a7
+TARGET_USES_64_BIT_BINDER := true
 
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
